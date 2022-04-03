@@ -1,24 +1,26 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 8 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress.
 
 ## Pentesting Report
 
 ### 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 2](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
+    - 
 ### 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
@@ -27,49 +29,31 @@ Time spent: **X** hours spent in total
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
-List any additional assets, such as scripts or files
+List any additional assets, such as scripts or files.
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
-- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- [WordPress Developer Reference](https://developer.wordpress.org/reference/) 
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Describe any challenges encountered while doing the work.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2022 Stan Lyubarskiy
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
