@@ -16,7 +16,7 @@ Time spent: 8 hours spent in total
       -    You must be logged in with either an admin or editor role.
       -    Navigate to the comments section of any post.
       -    Post a comment with this payload: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;"     onmouseover=alert(1)//'>Cats</a>
-      -    Once a user scrolls past the title of the affected page, an alert box will appear with the number 1 and continously appear as the user navigates the page.
+      -    Once a user scrolls past the "x thoughts on" area of the affected page, an alert box will appear with the number 1 and continously appear as the user navigates the page.
   - [ ] Affected source code:
     - [Link 1: WordPress Core Changes](https://core.trac.wordpress.org/changeset/33549)
    
