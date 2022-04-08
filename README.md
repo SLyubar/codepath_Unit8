@@ -62,7 +62,7 @@ GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-  It was difficult to find vulnerabilities that actually worked in the WordPress environment. Some of them only worked under certain user roles.
+  It was difficult to find vulnerabilities that actually worked in the WordPress environment. Some of them only worked under certain user roles or under specific circumstances.
 
 ## License
 
