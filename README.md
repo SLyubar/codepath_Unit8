@@ -45,7 +45,7 @@ Time spent: 8+ hours spent in total
       -    When creating a new post, the following payload should be placed into the HTML body (into the text, not the visual tab): <a href="</a><a title=" onmouseover=alert('You have been Pwned!')  ">link</a>
       -    Any user that hovers over the link with their mouse will get an alert message saying "Pwned!"
   - [ ] Affected source code:
-    - [Link 1](https://wordpress.org/news/2015/07/wordpress-4-2-3/)
+    - [Link 1: WordPress Security and Maintenance Update](https://wordpress.org/news/2015/07/wordpress-4-2-3/)
 
 ## Assets
 
