@@ -6,7 +6,7 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-### 1. Legacy Theme Preview Cross-Site Scripting (XSS) - CVE-2015-5733
+### 1. Legacy Theme Preview Cross-Site Scripting (XSS) - CVE-2015-5734
   - [ ] Summary: 
     - Vulnerability types: Persistent Cross-Site Scripting
     - Tested in version: 4.2
@@ -52,11 +52,11 @@ List any additional assets, such as scripts or files.
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/) 
-- [WordPress Scan Explanation for CVE-2015-5733](https://wpscan.com/vulnerability/7d99fa14-0b94-4e9a-9fc0-d3f22648be4e)
-- [Sucuri Blog Explaining CVE-2015-5744 Vulnerability](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
-- [MITRE Explainion of CVE-2015-5744]https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
-- [WordPress Scan Explanation for CVE-2015-5732]https://wpscan.com/vulnerability/32787617-081f-4743-a9a7-5dd6642308b2
-- [MITRE Explaination of CVE-2015-5732]https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5732
+- [WordPress Scan Explanation for CVE-2015-5734](https://wpscan.com/vulnerability/7d99fa14-0b94-4e9a-9fc0-d3f22648be4e)
+- [Sucuri Blog Explaining CVE-2015-5734 Vulnerability](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
+- [MITRE Explainion of CVE-2015-5734](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734)
+- [WordPress Scan Explanation for CVE-2015-5732](https://wpscan.com/vulnerability/32787617-081f-4743-a9a7-5dd6642308b2)
+- [MITRE Explaination of CVE-2015-5732](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5732)
 
 GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
