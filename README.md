@@ -30,19 +30,22 @@ Time spent: 8+ hours spent in total
       -    You must be logged in with either an admin role or trick an admin into creating a new Widget for the navigation menu.
       -    When creating the Widget, the admin needs to post this payload into the body: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onclick=alert(200)//'>Pwned</a>
       -    Ideally, the Widget has a catchy title such as "New Post!"
-      -    Any user that vists this WordPress site and clicks on the Widget link, will see an alert box appear with a 200 on the screen. The Widget is part of the sidebar navigation menu so it will appear no matter which post or page the user is viewing.
+      -    Any user that vists this WordPress site and clicks on any of the navigation links, will see an alert box appear with a 200 on the screen. The Widget is part of the sidebar navigation menu so it will appear no matter which post or page the user is viewing.
   - [ ] Affected source code:
     - [Link 1: WordPress Core Changes](https://core.trac.wordpress.org/changeset/33529)
   
-### 3. (Required) Vulnerability Name or ID
+### 3. Authenticated Stored Cross-Site Scripting (XSS) - CVE-2015-5622/5623
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+      -    You must be logged in with at least author or contributor status.
+      -    When creating a new post, the following payload should be placed into the HTML body (into the text, not the visual tab): <a href="</a><a title=" onmouseover=alert('You have been Pwned!')  ">link</a>
+      -    Any user that hovers over the link with their mouse will get an alert message saying "Pwned!"
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wordpress.org/news/2015/07/wordpress-4-2-3/)
 
 ## Assets
 
@@ -57,6 +60,11 @@ List any additional assets, such as scripts or files.
 - [MITRE Explainion of CVE-2015-5734](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734)
 - [WordPress Scan Explanation for CVE-2015-5732](https://wpscan.com/vulnerability/32787617-081f-4743-a9a7-5dd6642308b2)
 - [MITRE Explaination of CVE-2015-5732](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5732)
+- [WordPress Scan Explanation for CVE-2015-5622/5623](https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d)
+- [MITRE Explaination of CVE-2015-5622](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622)
+- [MITRE Explaination of CVE-2015-5623](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5623)
+- [Twitter Showing a Variation of the Exploit](https://twitter.com/klikkioy/status/624264122570526720)
+- [Klikki Post Explaining CVE-2015-5622/5623 Vulnerability](https://klikki.fi/adv/wordpress3.html)
 
 GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
