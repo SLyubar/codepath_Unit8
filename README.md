@@ -40,7 +40,7 @@ Time spent: 8+ hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  - [ ] https://github.com/SLyubar/codepath_Unit8/blob/main/exploit3.gif
+https://github.com/SLyubar/codepath_Unit8/blob/main/exploit3.gif
   - [ ] Steps to recreate: 
       -    You must be logged in with at least author or contributor status.
       -    When creating a new post, the following payload should be placed into the HTML body (into the text, not the visual tab): <a href="</a><a title=" onmouseover=alert('You have been Pwned!')  ">link</a>
