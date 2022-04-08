@@ -11,7 +11,8 @@ Time spent: 8+ hours spent in total
     - Vulnerability types: Persistent Cross-Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:
+![GIF Not Working](https://github.com/SLyubar/codepath_Unit8/blob/main/exploit1.gif)
   - [ ] Steps to recreate: 
       -    You must be logged in with either an admin or editor role.
       -    Navigate to the comments section of any post.
