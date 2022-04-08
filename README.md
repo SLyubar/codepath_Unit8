@@ -20,15 +20,20 @@ Time spent: 8 hours spent in total
   - [ ] Affected source code:
     - [Link 1: WordPress Core Changes](https://core.trac.wordpress.org/changeset/33549)
    
-### 2. (Required) Vulnerability Name or ID
+### 2. Widgets Title Cross-Site Scripting (XSS) - CVE-2015-5732
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate:
+      -    You must be logged in with either an admin role or trick an admin into creating a new Widget for the navigation menu.
+      -    When creating the Widget, the admin needs to post this payload into the body: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onclick=alert(200)//'>Pwned</a>
+      -    Ideally, the Widget has a catchy title such as "New Post!"
+      -    Any user that vists this WordPress site and clicks on the Widget link, will see an alert box appear with a 200 on the screen. The Widget is part of the sidebar navigation menu so it will appear no matter which post or page the user is viewing.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1: WordPress Core Changes](https://core.trac.wordpress.org/changeset/33529)
+  
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -50,6 +55,8 @@ List any additional assets, such as scripts or files.
 - https://wpscan.com/vulnerability/7d99fa14-0b94-4e9a-9fc0-d3f22648be4e
 - https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
 - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
+- https://wpscan.com/vulnerability/32787617-081f-4743-a9a7-5dd6642308b2
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5732
 
 GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
