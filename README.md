@@ -6,17 +6,19 @@ Time spent: 8 hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. Legacy Theme Preview Cross-Site Scripting (XSS) - CVE-2015-5733
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: Persistent Cross-Site Scripting
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+      -    You must be logged in with either an admin or editor role.
+      -    Navigate to the comments section of any post.
+      -    Post a comment with this payload: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;"     onmouseover=alert(1)//'>Cats</a>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    - [Link 2](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
-    - 
+    - [Link 1](https://core.trac.wordpress.org/changeset/33549)
+   
 ### 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -44,12 +46,15 @@ List any additional assets, such as scripts or files.
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/) 
+- https://wpscan.com/vulnerability/7d99fa14-0b94-4e9a-9fc0-d3f22648be4e
+- https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
 
 GIFs created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work.
+  It was difficult to find vulnerabilities that actually worked in the WordPress environment. Some of them only worked under certain user roles.
 
 ## License
 
