@@ -31,7 +31,7 @@ Time spent: 8+ hours spent in total
       -    You must be logged in with either an admin role or trick an admin into creating a new Widget for the navigation menu.
       -    When creating the Widget from the Appearance menu, the admin needs to post this payload into the body of a Text widget: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onclick=alert(200)//'>Pwned</a>
       -    Ideally, the Widget has a catchy title such as "New Post!"
-      -    Any user that vists this WordPress site and clicks on any of the navigation links, will see an alert box appear with a 200 on the screen. The Widget is part of the sidebar navigation menu so it will appear no matter which post or page the user is viewing.
+      -    Any user that vists this WordPress site and clicks on any of the navigation links, will see an alert box appear with a 200 on the screen. The Widget is part of the sidebar navigation menu so it will appear no matter which post or page the user is viewing. However, after it appears, the user can click okay and it will disappear and take them to the login page.
   - [ ] Affected source code:
     - [Link 1: WordPress Core Changes](https://core.trac.wordpress.org/changeset/33529)
   
