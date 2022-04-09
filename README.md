@@ -27,6 +27,7 @@ Time spent: 8+ hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
+  ![GIF Not Working](https://github.com/SLyubar/codepath_Unit8/blob/main/exploit2.gif)
   - [ ] Steps to recreate:
       -    You must be logged in with either an admin role or trick an admin into creating a new Widget for the navigation menu.
       -    When creating the Widget from the Appearance menu, the admin needs to post this payload into the body of a Text widget: <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onclick=alert(200)//'>Pwned</a>
